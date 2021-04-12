@@ -1,14 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T13:42:51.048Z" agent="5.0 (Windows)" etag="TdKCpry60GrTEILIgipz" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-12T13:48:07.892Z" agent="5.0 (Windows)" etag="t_fZt9OLZ5tliO_Wc025" version="14.5.10" type="github">
   <diagram id="X60pKRLHYqNhBMuP8MKD" name="Page-1">
-    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="706" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="a3cAYwDz3qXqtBNzGSlk-1" value="&lt;div&gt;specification&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a3cAYwDz3qXqtBNzGSlk-3" value="&lt;h1&gt;Specification&lt;/h1&gt;&lt;p&gt;Definition of an e3 environment;&lt;/p&gt;&lt;p&gt;- list of modules and versions&lt;/p&gt;&lt;p&gt;- associated metadata&lt;/p&gt;&lt;p&gt;- base and require version&lt;/p&gt;&lt;p&gt;are these really part of it?&lt;/p&gt;&lt;p&gt;do we want the tools to build also base and require?&lt;/p&gt;&lt;p&gt;base and require must be specified somewhere&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-3" value="&lt;h1&gt;Specification&lt;/h1&gt;&lt;p&gt;Definition of an e3 environment;&lt;/p&gt;&lt;p&gt;- list of modules and versions&lt;/p&gt;&lt;p&gt;- associated metadata&lt;/p&gt;&lt;p&gt;- base and require version(s) ?&lt;/p&gt;&lt;p&gt;are these really part of it?&lt;/p&gt;&lt;p&gt;do we want the tools to build also base and require?&lt;/p&gt;&lt;p&gt;base and require must be specified somewhere&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="11" y="10" width="419" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-4" value="&lt;div&gt;modules: list&lt;/div&gt;&lt;div&gt;metadata: dict&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a3cAYwDz3qXqtBNzGSlk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-6" value="&lt;div&gt;build-util&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="a3cAYwDz3qXqtBNzGSlk-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-9" value="&lt;div&gt;I want to build&lt;/div&gt;&lt;div&gt;- installation paths&lt;/div&gt;&lt;div&gt;- base&lt;/div&gt;&lt;div&gt;- req&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
