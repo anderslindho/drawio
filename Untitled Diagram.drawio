@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T14:37:18.033Z" agent="5.0 (Windows)" etag="VzJAjvU8utZ0pO81_b1R" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-12T14:38:09.923Z" agent="5.0 (Windows)" etag="AWakuaszQkuHDmZdPxjx" version="14.5.10" type="github">
   <diagram id="X60pKRLHYqNhBMuP8MKD" name="Page-1">
     <mxGraphModel dx="466" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
         <mxCell id="a3cAYwDz3qXqtBNzGSlk-31" value="? e3.bash ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a3cAYwDz3qXqtBNzGSlk-32" value="&lt;h1&gt;e3.bash&lt;/h1&gt;&lt;div&gt;Should consume a specification&lt;/div&gt;&lt;div&gt;Can build base and require&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is it the tool we use too?&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-32" value="&lt;h1&gt;e3.bash&lt;/h1&gt;&lt;div&gt;Should consume a specification&lt;/div&gt;&lt;div&gt;Must consume a specification?&lt;br&gt;&lt;/div&gt;&lt;div&gt;Can build base and require&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is it the tool we use too?&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="211" y="600" width="229" height="130" as="geometry" />
         </mxCell>
       </root>
