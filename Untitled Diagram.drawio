@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T13:48:07.892Z" agent="5.0 (Windows)" etag="t_fZt9OLZ5tliO_Wc025" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-12T14:04:08.579Z" agent="5.0 (Windows)" etag="yfJDLjulGUJTVpfPBdyw" version="14.5.10" type="github">
   <diagram id="X60pKRLHYqNhBMuP8MKD" name="Page-1">
     <mxGraphModel dx="706" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="20" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a3cAYwDz3qXqtBNzGSlk-3" value="&lt;h1&gt;Specification&lt;/h1&gt;&lt;p&gt;Definition of an e3 environment;&lt;/p&gt;&lt;p&gt;- list of modules and versions&lt;/p&gt;&lt;p&gt;- associated metadata&lt;/p&gt;&lt;p&gt;- base and require version(s) ?&lt;/p&gt;&lt;p&gt;are these really part of it?&lt;/p&gt;&lt;p&gt;do we want the tools to build also base and require?&lt;/p&gt;&lt;p&gt;base and require must be specified somewhere&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="11" y="10" width="419" height="270" as="geometry" />
+          <mxGeometry x="11" y="10" width="309" height="270" as="geometry" />
         </mxCell>
         <mxCell id="a3cAYwDz3qXqtBNzGSlk-4" value="&lt;div&gt;modules: list&lt;/div&gt;&lt;div&gt;metadata: dict&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
@@ -30,6 +30,24 @@
         </mxCell>
         <mxCell id="a3cAYwDz3qXqtBNzGSlk-9" value="&lt;div&gt;I want to build&lt;/div&gt;&lt;div&gt;- installation paths&lt;/div&gt;&lt;div&gt;- base&lt;/div&gt;&lt;div&gt;- req&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-11" value="&lt;div&gt;/epics&lt;/div&gt;&lt;div&gt;/epics-dev&lt;/div&gt;&lt;div&gt;/epics-test&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-12" value="&lt;div&gt;/epics&lt;/div&gt;&lt;div&gt;/epics-dev&lt;/div&gt;&lt;div&gt;/epics-test&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-13" value="&lt;div&gt;/epics&lt;/div&gt;&lt;div&gt;/epics-dev&lt;/div&gt;&lt;div&gt;/epics-test&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-14" value="&lt;div&gt;/epics&lt;/div&gt;&lt;div&gt;/epics-dev&lt;/div&gt;&lt;div&gt;/epics-test&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3cAYwDz3qXqtBNzGSlk-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a3cAYwDz3qXqtBNzGSlk-6" target="a3cAYwDz3qXqtBNzGSlk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
